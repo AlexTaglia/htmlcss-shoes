@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Russo One', sans-serif;
+}
+
 .container{
     height: 100vh;
     position: relative;
@@ -23,7 +27,6 @@
 
 .centered-container {
     width: 800px;
-    /* border: 1px rgba(0,0,0,.3) solid; */
     text-align: center;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -63,16 +66,17 @@ li:last-child{
 }
 
 [class*="shoes-text-"] {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 [class$="-text-green"] {
-    color: rgb(0, 255, 0);
+    color: green;
 }
 
 [class$="-text-yellow"] {
-    color: rgb(255, 255, 0);
+    color: yellow;
 }
 
