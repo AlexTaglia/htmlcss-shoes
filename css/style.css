@@ -18,7 +18,7 @@
 }
 
 .yellow{
-    background-color: blue;
+    background-color: yellow;
 }
 
 .centered-container {
@@ -31,9 +31,17 @@
     left: 50%;
 }
 
-.shoes-text {
+[class*="shoes-text-"] {
     font-size: 40px;
-    color: yellow;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+[class$="-text-green"] {
+    color: rgb(0, 255, 0);
+}
+
+[class$="-text-yellow"] {
+    color: rgb(255, 255, 0);
+}
+
