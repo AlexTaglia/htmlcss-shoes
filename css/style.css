@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: blue;
+}
+
+.centered-container {
+    width: 800px;
+    border: 1px rgba(0,0,0,.3) solid;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.shoes-text {
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+}
